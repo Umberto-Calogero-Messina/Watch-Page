@@ -8,6 +8,8 @@ body {
   background-color: #2b2b2b;
   color: white;
   font-size: 14px;
+  max-width: 1440px;
+  margin-inline: auto;
 
   @include responsive(tablet) {
     font-size: 24px;
